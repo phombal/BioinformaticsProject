@@ -1,0 +1,730 @@
+Xu et al. Journal of Experimental & Clinical Cancer Research              (2020) 39:283
+https://doi.org/10.1186/s13046-020-01799-1
+
+
+
+
+ RESEARCH                                                                                                                                           Open Access
+
+CircRNA_0000392 promotes colorectal
+cancer progression through the miR-193a-
+5p/PIK3R3/AKT axis
+Hanchen Xu1, Yujing Liu1, Peiqiu Cheng1, Chunyan Wang1, Yang Liu2, Wenjun Zhou1, Yangxian Xu2* and
+Guang Ji1*
+
+
+  Abstract
+  Background: Circular RNAs (circRNAs), important members of the noncoding RNA family, have been recently
+  revealed to play a role in the pathogenic progression of diseases, particularly in the malignant progression of
+  cancer. With the application of high-throughput sequencing technology, a large number of circRNAs have been
+  identified in tumor tissues, and some circRNAs have been demonstrated to act as oncogenes. In this study, we
+  analyzed the circRNA expression profile in colorectal cancer (CRC) tissues and normal adjacent tissues by high-
+  throughput sequencing. We focused on circRNA_0000392, a circRNA with significantly increased expression in
+  CRCtissues, and further investigated its function in the progression of colorectal cancer.
+  Methods: The expression profile of circRNAs in 6 pairs of CRC tissues and normal adjacent tissues was analyzed by
+  RNA sequencing. We verified the identified differentially expressed circRNAs in additional samples by qRT-PCR and
+  selected circRNA_0000392 to evaluate its associations with clinicopathological features. Then, we knocked down
+  circRNA_0000392 in CRC cells and investigated the in vitro and in vivo effects using functional experiments. Dual
+  luciferase and RNA pull-down assays were performed to further explore the downstream potential molecular
+  mechanisms.
+  Results: CircRNA_0000392 was significantly upregulated in CRC compared with normal adjacent tissues and cell
+  lines. The expression level of circRNA_0000392 was positively correlated with the malignant progression of CRC.
+  Functional studies revealed that reducing the expression of circRNA_0000392 could inhibit the proliferation and
+  invasion of CRC both in vitro and in vivo. Mechanistically, circRNA_0000392 could act as a sponge of miR-193a-5p
+  and regulate the expression of PIK3R3, affecting the activation of the AKT-mTOR pathway in CRC cells.
+  Conclusions: CircRNA_0000392 functions as an oncogene through the miR-193a-5p/PIK3R3/Akt axis in CRC cells,
+  suggesting that circRNA_0000392 is a potential therapeutic target for the treatment of colorectal cancer and a
+  predictive marker for CRC patients.
+  Keywords: Colorectal cancer, Circular RNAs (circRNAs), RNA sequencing, CircRNA_0000392, miR-193a-5p, PIK3R3
+
+
+
+
+* Correspondence: xuyangxian@163.com; jiliver@vip.sina.com
+2
+ Department of General Surgery, Longhua Hospital, Shanghai University of
+Traditional Chinese Medicine, Shanghai 200032, China
+1
+ Institute of Digestive Diseases, Longhua Hospital, Shanghai University of
+Traditional Chinese Medicine, Shanghai 200032, China
+
+                                        © The Author(s). 2020 Open Access This article is licensed under a Creative Commons Attribution 4.0 International License,
+                                        which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give
+                                        appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if
+                                        changes were made. The images or other third party material in this article are included in the article's Creative Commons
+                                        licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons
+                                        licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain
+                                        permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+                                        The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the
+                                        data made available in this article, unless otherwise stated in a credit line to the data.
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283                                             Page 2 of 17
+
+
+
+
+Background                                                               were identified after CRC tissues were compared with
+Colorectal cancer (CRC) threatens human health as the                    adjacent normal tissues. After verifying some candidate
+third most common cancer worldwide [1]. In recent years,                 circRNAs by qRT-PCR, we found that circRNA_
+the incidence of colorectal cancer has increased annually                0000392, which originates from exons 2 to 4 of the
+[2]. With the continuous improvement of diagnosis and                    YAF2 gene, was significantly upregulated in CRC tissues.
+treatment, the five-year survival rate of colorectal cancer              The high expression of circRNA_0000392 was associated
+has increased, but the five-year survival prognosis is highly            with pathological stage and metastasis in CRC. We then
+correlated with the stage of the disease. Patients with ad-              focused on circRNA_0000392 and demonstrated that in-
+vanced colorectal cancer are typically accompanied by                    hibition of its expression could significantly attenuate
+tumor metastasis, and the five-year survival rate is very                the proliferation and invasion of CRC cells. More im-
+low [3]. Therefore, it is urgent to further study the patho-             portantly, we explored the mechanism of circRNA_
+genesis of colorectal cancer and the unknown molecular                   0000392 in the progression of colorectal cancer and
+mechanism involved in tumor metastasis.                                  found that it could act as a sponge of miR-193a-5p,
+   There is a large amount of noncoding RNA in the hu-                   thereby releasing the inhibition of PIK3R3 by miR-193a-
+man genome, and the relationship between the existence                   5p and promoting the phosphorylation of the AKT/
+of noncoding RNA and human diseases has always been                      mTOR signaling pathway. Our findings illustrate a new
+a research hotspot, especially in malignant tumors. Cir-                 mechanism of CRC progression and provide new in-
+cular RNAs (circRNAs) are important members of the                       sights for the treatment and diagnosis of CRC.
+noncoding RNA family along with microRNAs and
+lncRNAs. CircRNAs are characterized by their covalently                  Materials and methods
+closed loop structures and the absence of 3′ and 5′ ends.                Patient population and clinical data
+Based on this closed structure, circRNAs are highly                      Forty pairs of CRC tissues and adjacent normal tissues
+stable and not easily degraded [4]. Researchers have dis-                were collected from patients who were diagnosed with
+covered the presence of circRNAs in multiple organisms,                  CRC at the Longhua Hospital affiliated with Shanghai
+such as yeast, mitochondria and eukaryotes, and de-                      University of Traditional Chinese Medicine (Shanghai,
+tected more than 20,000 circRNAs in eukaryotes [5, 6].                   China). Tumor and normal adjacent tissue samples were
+One study reported that exon rearranged circulating                      obtained during surgical treatment at the Department of
+transcripts were first discovered in leukemia cells, HeLa                General Surgery. The samples were isolated, immediately
+cell lines and normal human primary blood cells, and                     snap frozen in liquid nitrogen and stored at − 80 °C be-
+approximately 80 circRNAs were identified [7]. Since                     fore use. All patients signed informed consent forms
+then, an increasing number of circRNAs have been iden-                   prior to surgery and did not receive preoperative chemo-
+tified in different tissues using high-throughput sequen-                therapy or radiotherapy. This study was approved by the
+cing technology. The role of circRNA in the                              Ethics Committee of Longhua Hospital.
+development of diseases, such as encephalopathy and tu-
+mors, has also been gradually revealed [8, 9]. The mech-                 RNA sequencing, identification and quantification of
+anism of circRNA as a competitive endogenous RNA                         human circRNAs
+has become a focus of cancer research. CircRNA adsorbs                   Total RNA was isolated from the tissue samples using
+miRNA through the sponge action of miRNA to regulate                     TRIzol reagent (Life Technologies, Carlsbad, CA) ac-
+the expression of its target genes [10, 11]. With the con-               cording to the manufacturer’s instructions. Then, we
+tinuous expansion of studies on circRNAs, circRNAs have                  assessed the RNA integrity and DNA contamination by
+been shown to be involved in the development of almost                   using electrophoresis on a denaturing agarose gel. After
+all types of cancers [12–17]. All the studies on the rela-               confirming that the RNA was intact and pure, we used
+tionship between circRNAs and cancer suggest that cir-                   the Ribo-Zero rRNA Removal Kit (Illumina, San Diego,
+cRNAs may be novel potential biomarkers and                              CA, USA) and the CircRNA Enrichment Kit (Cloud-seq,
+therapeutic targets. However, since most circRNAs are                    USA) to remove the rRNA and enrich the circRNAs, re-
+still not fully characterized and the roles of circRNAs in               spectively. The RNA-seq libraries were constructed
+CRC progression are still largely unknown, further re-                   using pretreated RNAs with the TruSeq Stranded Total
+search is needed to identify the circRNAs associated with                RNA Library Prep Kit (Illumina, San Diego, CA, USA)
+CRC tumorigenesis and to elucidate their functions.                      according to the manufacturer’s instructions. The librar-
+   In this study, we first explored the expression profiles              ies were denatured as single-stranded DNA molecules,
+of circRNAs in 6 paired CRC tissues and adjacent nor-                    captured on Illumina flow cells, amplified in situ as clus-
+mal tissues by using high-throughput RNA sequencing.                     ters and finally sequenced for 150 cycles on an Illumina
+A total of 66,855 circRNAs were detected, among which                    HiSeq™ 4000 Sequencer (Illumina, San Diego, CA, USA)
+1687 circRNAs with significant differential expression                   according to the manufacturer’s instructions. Paired-end
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283                                            Page 3 of 17
+
+
+
+
+reads were harvested from an Illumina HiSeq™ 4000 se-                    RNA extraction and qRT-PCR
+quencer and were quality controlled by Q30. The reads                    Total RNA was extracted by using TRIzol reagent (Life
+were aligned to the reference genome/transcriptome                       Technologies, Carlsbad, CA) and then reverse-
+with STAR software, and circRNAs were detected and                       transcribed into cDNA using the SuperScript First-
+annotated with DCC software. The circBase database                       Strand Synthesis System (Invitrogen, Carlsbad, CA,
+and circ2Trait disease database were used to annotate                    USA). cDNA was used for qPCR performed with the
+the identified circRNAs. The differentially expressed cir-               SYBR Green PCR Master Mix (Applied Biosystems, Fos-
+cRNAs between the two groups were identified using T                     ter City, CA, USA) and gene-specific primers, and the
+test statistical methods.                                                results were normalized using β-actin or U6 as a control.
+                                                                         PCR primers are listed in Additional file 1: Table S1.
+
+Analyses of circRNA-miRNA-mRNA interactions in CRC                       CircRNA RNase R resistance analysis and actinomycin D
+CircRNA-miRNA interactions were predicted by popular                     assay
+target prediction software, including Circular RNA In-                   SW620 and RKO cells were treated with 3 U/mg RNase
+teractome and RegRNA. Specific predictions for the tar-                  R (Epicentre, WI, USA) or 2 mg/L actinomycin D
+get genes of miRNAs were based on the miRanda,                           (Sigma, USA) and then cultured at 37 °C. The cells were
+miRDB, miRWalk, RNA22 and TargetScan databases.                          harvested at the indicated time points, and the stability
+All circRNA-miRNA-mRNA networks were constructed                         of circRNA_0000392 and YAF2 mRNA was detected by
+using Cytoscape software.                                                quantitative real-time PCR (qRT-PCR) assay.
+
+                                                                         Fluorescence in situ hybridization (FISH)
+Cell culture                                                             SW620 and RKO cells were seeded in dishes and cul-
+Human CRC cell lines (HT29, HCT116, SW480,                               tured until 70–80% confluence. Then, the cells were
+SW837, SW48, SW620 and RKO) were purchased from                          fixed at room temperature with 4% paraformaldehyde
+American Type Culture Collection (ATCC) (Manassas,                       and treated with protease K. Then, the cells were over-
+VA, USA). A normal human colon mucosal epithelial                        laid with FITC-labeled circRNA_0000392 probe (Gefan-
+cell line (NCM460) and the 293 T cell line was obtained                  bio, China) at 65 °C for 48 h. The signals of the probe
+and preserved in our lab. HT29 and HCT116 cells were                     were detected by a Fluorescent In Situ Hybridization Kit
+cultured in McCoy’s 5A (Gibco, Carlsbad, CA, USA),                       (Gefanbio, China) according to the manufacturer’s
+while SW480, SW620, SW48, SW837 and 293 T cells                          protocol. Nuclei were counterstained with DAPI.
+were cultured in DMEM (Gibco, Carlsbad, CA, USA).
+NCM460 cells were cultured in M3:10 media (INCELL,                       Luciferase reporter assay
+San Antonio, TX), and RKO cells were cultured with                       The sequences of circRNA_0000392 and the PIK3R3 3′
+MEM (Gibco, Carlsbad, CA, USA). All culture media                        UTR and their corresponding mutant versions without
+contained 10% fetal bovine serum and 1% penicillin. All                  miR-193a-5p binding sites were synthesized and sub-
+these cell lines were maintained in a humidified atmos-                  cloned into the luciferase reporter vector pmirGLO
+phere of 5% CO2 at 37 °C.                                                (Promega, Madison, WI, USA), and the resulting con-
+                                                                         structs were named circRNA_0000392 -WT, circRNA_
+                                                                         0000392-Mut, PIK3R3 3′ UTR-WT and PIK3R3 3′
+Antibodies and reagents                                                  UTR-Mut, respectively. The plasmids were validated by
+Anti-PIK3R3 antibody (ab97862, 1:1000 dilution for im-                   sequencing and then cotransfected with the miRNA
+munoblotting and 1:200 for IHC) was purchased from                       mimics or inhibitor or the corresponding negative con-
+Abcam. Anti-AKT1 antibody (#2938), anti-phospho-Akt                      trols. The relative luciferase activity was measured using
+(Ser473) antibody (#4058), anti-mTOR antibody (#2972),                   a Dual Luciferase Assay Kit (Promega, Madison, WI,
+and anti-phospho-mTOR (Ser2448) antibody (#2971)                         USA).
+were obtained from Cell Signaling Technology, and all
+antibodies were diluted 1:1000 for immunoblotting.                       Transwell migration and Matrigel invasion assays
+Anti-actin (sc-1616, 1:5000 dilution), HRP-conjugated                    A Transwell chamber (Corning, Kennebunk, ME, USA)
+anti-mouse IgG (sc-2055, 1:5000 dilution) and HRP-                       was used for the migration assays, and a transwell cham-
+conjugated anti-rabbit IgG (sc-2054, 1:5000 dilution)                    ber precoated with Matrigel was used for the invasion
+were purchased from Santa Cruz. Actinomycin D and                        assays. According to the protocol, single-cell suspensions
+crystal violet were purchased from Sigma-Aldrich (St                     were added to the upper chambers and incubated for 24
+Louis, MO, USA). RNase R was purchased from Epi-                         h. Then, the cells were washed, fixed, and stained with
+centre Technologies (Madison, WI, USA).                                  crystal violet. Based on the crystal violet staining data,
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283                                              Page 4 of 17
+
+
+
+
+we calculated the migration and invasion rates by count-                 Statistical analysis
+ing the cells in at least five random fields.                            Statistical analyses were performed using GraphPad
+                                                                         Prism 7.0 (GraphPad Software Inc., CA, USA). Student’s
+                                                                         t-test and one-way ANOVA were used to compare dif-
+RNA immunoprecipitation (RIP)                                            ferences between groups as appropriate. The correlation
+RIP assays were performed in SW620 and RKO cells. A                      between groups was analyzed by Pearson correlation.
+total of 1 × 107 cells were completely lysed by RNA lysis                ROC curve analysis was performed to evaluate the diag-
+buffer and then incubated with RIP immunoprecipita-                      nostic value. Data are presented as the mean ± standard
+tion buffer containing magnetic beads conjugated with                    deviation (SD), and p < 0.05 was considered statistically
+human anti-Argonaute2 (AGO2) antibody (Millipore,                        significant.
+USA) or negative control mouse IgG (Millipore, USA).
+Proteinase K was added to the RIP sample and incubated                   Additional methods
+at 55 °C for 30 min. Then, immunoprecipitated RNA was                    The cell transfection, western blot, cell proliferation, and
+isolated and analyzed by qRT-PCR to quantify the en-                     apoptosis assays are described as the Supplementary
+richment of circRNA_0000392.                                             Methods in Additional file 2.
+
+                                                                         Results
+RNA pull-down
+                                                                         Identification of circular RNAs by RNA-seq analyses in
+Biotin-labeled circRNA_0000392 probe or oligo probe
+                                                                         human CRC
+(GenePharma, China) were synthesized. SW620 and
+                                                                         To obtain the expression profiles of circRNAs and iden-
+RKO cells were lysed with lysis buffer and incubated
+                                                                         tify differentially expressed circRNAs in CRC patients,
+with specific circRNA_0000392 probes. Then, SW620
+                                                                         secondary sequencing was used to profile circRNA ex-
+and RKO cells were lysed with lysis buffer and incubated
+                                                                         pression in paired CRC tissues and adjacent normal tis-
+with probe-coated beads at 4 °C overnight. The beads
+                                                                         sues (ANT) from 6patients with CRC. First, the scatter
+were washed, the RNA complexes were extracted with
+                                                                         plot showed the differences in circRNA expression be-
+TRIzol (Life Technologies, Carlsbad, CA) and detected
+                                                                         tween the tumor tissues and adjacent normal tissues
+by qRT-PCR.
+                                                                         (Fig. 1a). Then, under the cutoff criteria of fold change
+                                                                         > 2.0 and P < 0.05, the significant differentially expressed
+Immunohistochemistry                                                     circRNAs between the two groups are presented in a
+Detection of the expression level of PIK3R3 by immuno-                   volcano plot (Fig. 1b) and hierarchical cluster (Fig. 1c).
+histochemistry was performed on 5-μm thick paraffin                      In total, 66,855 circRNAs were detected in the tissue
+sections of patient tissue samples. Briefly, the sections                samples by sequencing, including 19 significantly upreg-
+were deparaffinized and rehydrated followed by antigen                   ulated and 1668 significantly downregulated circRNAs
+retrieval using 0.01 M sodium citrate buffer (pH 6.0) at a               (Fig. 1d and Additional files 3 and 4). GO and KEGG
+boiling temperature for 10 min. Then, the sections were                  analyses of the host genes of differentially expressed cir-
+incubated with 3% hydrogen peroxide for 10 min, 5% bo-                   cRNAs are shown in Additional file 1: Fig. S1 and S2.
+vine serum albumin for 1 h and primary antibodies at                     Based on their genomic origin, circRNAs were classified
+4 °C overnight. The sections were incubated with sec-                    as intronic, exonic, intergenic, antisense and sense over-
+ondary antibodies after washing three times with PBS.                    lapping circRNAs and are presented as a pie chart show-
+Finally, the DAB system was used to visualize the signal,                ing the percentage of significantly differentially
+and hematoxylin was used to stain the nucleus. The im-                   expressed circRNAs in each category (Fig. 1e). We then
+munostaining images were captured using an Olympus                       identified the circRNAs that can function as miRNA
+FSX100 microscope (Olympus, Japan).                                      sponges from the significantly differentially expressed
+                                                                         circRNAs and constructed a network map using Cytos-
+                                                                         cape software (Additional file 1: Fig. S3). We overlapped
+Xenograft tumor model                                                    the top 10 circRNAs that were significantly upregulated
+BALB/c nude mice (male, 3- to 4-week-old) were                           or downregulated (Additional file 1: Table S2) with cir-
+injected subcutaneously with 5 × 106 SW620 cells.                        cRNAs that function as miRNA sponges. From the over-
+Tumor volumes were measured with a caliper every 3                       lap, we first selected 4 circRNAs and verified the
+days and calculated from the length (a) and the width                    circRNA-seq results in 40 paired CRC tissues and adja-
+(b) by using the following formula: volume (mm3) = ab2/                  cent normal tissues (ANT) by qRT-PCR. As shown in
+2. Thirty days after injection, the animals were sacrificed,             Fig. 1f, circRNA_0000392 expression was significantly
+and the excised tumor tissues were removed to further                    upregulated in CRC tissues, which was consistent with
+assess tumor weight and pathological staining.                           the sequencing data. Of the two, circRNA_0000392 had
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283   Page 5 of 17
+
+
+
+
+ Fig. 1 (See legend on next page.)
+Xu et al. Journal of Experimental & Clinical Cancer Research       (2020) 39:283                                                            Page 6 of 17
+
+
+
+
+ (See figure on previous page.)
+ Fig. 1 Identification of circular RNAs by RNA-seq analyses in human CRC samples. a The scatter plot shows the changes in circRNA expression in
+ six paired CRC and adjacent normal tissues (ANT). CircRNAs above the top green line and below the bottom green line demonstrated a greater
+ than 1.5-fold change between the two compared groups. b The volcano plot shows the expression profiling of circRNA between CRC and ANT.
+ The vertical green lines refer to a 2.0-fold (log2 scaled) upregulation and downregulation, respectively. The horizontal green line corresponds to a
+ P-value of 0.05 (−log10 scaled). The red points in the plot represent differentially expressed circRNAs with statistical significance. c Clustered heat
+ map indicating differences in circRNA expression profiling between CRC and ANT tissues. d The number of total circRNAs identified by RNA-seq
+ and the number of differentially expressed circRNAs. e CircRNAs were classified by categories. f Validation of the top 4 differentially expressed
+ circRNAs in 16 paired CRC and ANT tissues by RT-qPCR. CRC, colorectal cancer; ANT, adjacent normal tissue. Data represent the mean ± SD. * P <
+ 0.05, ** P < 0.01
+
+
+
+
+ Fig. 2 CircRNA_0000392 is upregulated in CRC and associated with progression. a - b Relative expression of circRNA_0000392 in 40 pairs of CRC
+ and ANT tissues measured by qRT-PCR. c ROC curve analysis of circRNA_0000392 in CRC patients. AUC values are included in the graphs. d
+ Percentages of CRC tissues with low or high expression of circRNA_0000392 according to TNM stage. e Analysis of circRNA_0000392 expression
+ in CRC patients according to TNM stage. f Analysis of circRNA_0000392 expression in CRC patients with or without lymph node metastasis. g
+ Analysis of circRNA_0000392 expression in CRC patients with or without distant metastasis. h Relative expression of circRNA_0000392 in cell lines
+ was detected by qRT-PCR. Data represent the mean ± SD. * P < 0.05, ** P < 0.01
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283                                                Page 7 of 17
+
+
+
+
+an approximately 25-fold change in sequencing and an                     However, the expression of circRNA_0000392 was signifi-
+approximately 13-fold change in 16 patients, indicating a                cantly correlated with pathological stage (P = 0.0123),
+more significant difference. Therefore, in this study, we                lymph node metastasis (P = 0.0055) and distant metastasis
+will focus on the role of circRNA_0000392 in the                         (P = 0.0084) (Fig. 2d–g, and Additional file 1: Fig. S4A-B).
+tumorigenesis and progression of colorectal cancer.                      The circRNA_0000392 expression level was also measured
+                                                                         in the normal human colon mucosal epithelial cell line
+circRNA_0000392 is upregulated in CRC and associated                     NCM460 and in 7 CRC cell lines, namely, HT29, HCT116,
+with progression                                                         SW480, SW837, SW48, SW620, and RKO. circRNA_
+To further confirm our results, we increased the number                  0000392 expression was markedly upregulated in human
+of tissue samples to 40 pairs and detected the expression                CRC cell lines compared with normal colon mucosal epi-
+level of circRNA_0000392 by qRT-PCR. The results                         thelial cell lines (Fig. 2h). These results indicate that cir-
+showed that in 29 of the 40 pairs of CRC tissues and ad-                 cRNA_0000392 expression was elevated in CRC and may
+jacent normal tissues, the expression level of circRNA_                  be involved in the tumorigenesis and development of CRC.
+0000392 was higher in tumor tissues than in adjacent nor-
+mal tissues and was significantly increased in the overall               The characteristics of the circRNA_0000392
+statistics of the 40 pairs (Fig. 2a and b). Then, ROC curve              Before we delved into the specific role of circRNA_
+analysis was performed to assess the diagnostic value of cir-            0000392 in CRC, we first investigated the characteristics
+cRNA_0000392 in CRC. The results showed that circRNA_                    of circRNA_0000392. The genomic locus of circRNA_
+0000392 could discriminate CRC from adjacent normal tis-                 0000392 is shown in Fig. 3a, and the spliced mature se-
+sues with an AUC of 0.713 (95% CI: 0.598–0.827, P < 0.01)                quence length of circRNA_0000392 is 326 bp. Further,
+(Fig. 2c). The associations between the circRNA_0000392                  SW620 and RKO cells were treated with RNase R exo-
+expression level and clinical parameters of the CRC patients             nuclease and actinomycin D to verify the authenticity of
+are listed in Table 1. There was no significant difference in            circRNA_0000392. CircRNA_0000392 was resistant to
+the expression level of circRNA_0000392 between the two                  RNase R (Fig. 3b) and actinomycin D (Fig. 3c and Add-
+groups according to age, gender, tumor size or location.                 itional file 1: Fig. S4C), whereas YAF2 mRNA was
+
+Table 1 Associations between circRNA_0000392 levels and clinical parameters in colorectal cancer patients (n = 40)
+Characteristic                         No. of Patients (%)             CircRNA-0000392 expression              P-value (2-ΔCt Mean ± SD)
+Age (y)                                40 (100)
+  ≥60                                  31 (77.5)                       5.458 ± 5.084                                   0.3699
+  < 60                                 9 (22.5)                        7.247 ± 5.645
+Sex                                    40 (100)
+  Men                                  27 (67.5)                       5.497 ± 5.337                                   0.5310
+  Women                                13 (32.5)                       6.615 ± 5.010
+Tumor size (cm)                        40 (100)
+  ≥5                                   18 (45)                         5.839 ± 4.716                                   0.9810
+  <5                                   22 (55)                         5.879 ± 5.668
+Tumor location                         40 (100)
+  Left hemicolon                       34 (85)                         5.365 ± 4.880                                   0.1536
+  Right hemicolon                      6 (15)                          8.668 ± 6.497
+pTNM stage                             40 (100)
+  I-II                                 20 (50)                         4.071 ± 3.144                                   0.0123*
+  III-IV                               20 (50)                         7.679 ± 6.294
+Lymph node metastasis                  40 (100)
+  pN negative                          21 (52.5)                       3.756 ± 3.416                                   0.0055**
+  pN positive                          19 (47.5)                       8.218 ± 5.957
+Distant metastasis                     40 (100)
+  pM negative                          34 (85)                         4.981 ± 3.995                                   0.0084**
+  pM positive                          6 (15)                          10.940 ± 8.520
+* P < 0.05; ** P < 0.01
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283                                                       Page 8 of 17
+
+
+
+
+ Fig. 3 The characteristics of circRNA_0000392. a The genomic loci of the YAF2 gene and circRNA_0000392. The spliced mature sequence length
+ of circRNA_0000392 is 326 bp. b The expression of circRNA_0000392 and YAF2 mRNA in SW620 and RKO cells treated with or without RNase R
+ was detected by qRT-PCR. c qRT-PCR analysis of circRNA_0000392 and YAF2 mRNA in SW620 cells treated with actinomycin D at the indicated
+ time points. d Fluorescence in situ hybridization (FISH) assays were performed to determine the localization of circRNA_0000392 in SW620 and
+ RKO cells. Scale bar = 50 μm. Data represent the mean ± SD. * P < 0.05, ** P < 0.01
+
+
+
+significantly reduced after RNase R and actinomycin D                    viability of SW620 and RKO cells (Fig. 4b and c). We fur-
+treatment. RNA fluorescence in situ hybridization (FISH)                 ther investigated whether circRNA_0000392 has an effect
+assays demonstrated that circRNA_0000392 was mainly                      on the apoptosis of CRC cells by flow cytometry. Double
+localized in the cytoplasm (Fig. 3d). These data showed                  staining with Annexin V and PI showed that circRNA_
+that the circRNA_0000392 species was indeed circular.                    0000392 knockdown significantly enhanced cell apoptosis
+                                                                         at 48 h post transfection with siRNA #1 or si-NC (Fig. 4d).
+Knockdown of circRNA_0000392 inhibits CRC cell                           Next, cell migration and invasion abilities after siRNA
+proliferation and invasion                                               transfection were performed using Transwell assays with
+To explore the function of circRNA_0000392 in CRC                        or without Matrigel. As a result, the cell migration and in-
+cells, we first designed two siRNAs targeting the back-                  vasion abilities of SW620 and RKO cells were significantly
+splice region. Then, loss-of-function assays were per-                   inhibited after knocking down the expression of circRNA_
+formed in SW620 and RKO cells with relatively high ex-                   0000392 (Fig. 4e and f). We further measured the protein
+pression of circRNA_0000392. After transfection of the                   expression level of the EMT markers. As shown in Add-
+two siRNAs, the expression of circRNA_0000392 was sig-                   itional file 1: Fig. S9, after the expression level of cir-
+nificantly reduced by siRNA #1 in both cell lines (Fig. 4a).             cRNA_0000392 was knocked down, the expression of E-
+The WST-1 assay demonstrated that downregulation of                      Cadherin was significantly up-regulated and the expres-
+circRNA_0000392 significantly inhibited the proliferation                sion of Vimentin was significantly decreased. These results
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283   Page 9 of 17
+
+
+
+
+ Fig. 4 (See legend on next page.)
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283                                                       Page 10 of 17
+
+
+
+
+ (See figure on previous page.)
+ Fig. 4 Knockdown of circRNA_0000392 inhibits CRC cell proliferation and invasion. a qRT-PCR analysis of circRNA_0000392 in SW620 and RKO
+ cells after transfection with siRNA for 48 h. b - c SW620 and RKO cell proliferation after circRNA_0000392 knockdown by siRNA was detected by
+ WST-1 assay. d The apoptosis rate was analyzed by flow cytometry after downregulation of circRNA_0000392 in SW620 and RKO cells. (E - F) Cell
+ migration (e) and invasion (f) were assessed by transwell assay with or without Matrigel after circRNA_0000392 knockdown in SW620 and RKO
+ cells. Data represent the mean ± SD. * P < 0.05, ** P < 0.01
+
+
+indicated that circRNA_0000392 contributed to CRC cell                    PIK3R3 is directly targeted by miR-193a-5p and indirectly
+proliferation and motility in vitro.                                      regulated by circRNA_0000392
+                                                                          According to our previous predictions, EPHA2, PIK3R3,
+                                                                          EGFR, USP22 and DDX58 are the most likely potential
+CircRNA_0000392 functions as a sponge for miR-193a-5p                     target genes for miR-193a-5p. Then, we detected the
+It is well known that acting as a miRNA sponge is one                     mRNA expression levels of these genes after transfection
+of the important mechanisms by which circRNAs exert                       of SW620 cells with the miR-193a-5p mimics or inhibi-
+their biological functions [10]. Given that we previously                 tor. The results revealed that the EPHA2 and PIK3R3
+found by prediction software that circRNA_0000392                         expression levels were significantly downregulated by
+could function as a miRNA sponge, we mainly focused                       the miR-193a-5p mimic and that the PIK3R3 expression
+on its function as a miRNA sponge to further explore its                  level was upregulated after transfection with the miR-
+underlying mechanism in CRC cell proliferation. First,                    193a-5p inhibitor (Fig. 6a and Additional file 1: Fig.
+the RIP assay was performed in SW620 and RKO cells.                       S7A). The dual-luciferase reporter assay was performed
+The results showed that circRNA_0000392 was enriched                      to confirm the binding relationship between PIK3R3 and
+in AGO2 immunoprecipitates, confirming that cir-                          miR-193a-5p (Fig. 6b). The PIK3R3 3’UTR WT or mu-
+cRNA_0000392 functions to adsorb miRNA (Fig. 5a).                         tant plasmid was cotransfected with the miR-193a-5p
+Then, circRNA-miRNA-mRNA interactions based on                            mimic in 293 T cells. The results showed that cotrans-
+circRNA_0000392 were predicted by bioinformatics ana-                     fection of the PIK3R3 3’UTR WT plasmid and miR-
+lysis using Cytoscape software (Fig. 5b). From the pre-                   193a-5p mimic significantly reduced the relative lucifer-
+diction results, we selected the top 5 candidate miRNAs                   ase activity (Fig. 6c). Subsequently, we also tested
+to validate the specific interaction by RNA pull-down                     whether miR-193a-5p affects the expression of PIK3R3.
+assay. The results showed that miR-193a-5p had a dra-                     The qRT-PCR results revealed that the miR-193a-5p
+matic difference in the pull-down level by the circRNA_                   mimic could markedly reduce the expression level of
+0000392 probe compared with the oligo probe in both                       PIK3R3, whereas the expression level of PIK3R3 was sig-
+SW620 and RKO cells (Fig. 5c and Additional file 1: Fig.                  nificantly upregulated by the miR-193a-5p inhibitor in
+S5A). To further confirm the interactions between cir-                    both SW620 and RKO cell lines (Fig. 6d). PIK3R3 pro-
+cRNA_0000392 and miR-193a-5p, a dual-luciferase re-                       tein levels were significantly downregulated by interven-
+porter assay was performed in 293 T cells. The                            tion with the miR-193a-5p mimic (Fig. 6e). Then, we
+circRNA_0000392-wt or circRNA_0000392-mut plasmid                         detected the expression levels of PIK3R3 in 40 pairs of
+was constructed based on a luciferase reporter vector                     CRC tumor tissues and adjacent normal tissues. The re-
+(Fig. 5d) and then cotransfected with miR-193a-5p                         sults showed that the PIK3R3 expression level in CRC
+mimic or NC in 293 T cells (Additional file 1: Fig. S5B-                  tumor tissues was significantly increased compared with
+C). The dual-luciferase reporter assay results showed                     that in adjacent normal tissues and was negatively corre-
+that miR-193a-5p mimics significantly reduced the lucif-                  lated with miR-193a-5p expression in CRC tissues (r = −
+erase activity of the circRNA_0000392-WT group but                        0.34, P = 0.032) (Fig. 6f and Additional file 1: Fig. S7B-
+had no effect on the mutant group (Fig. 5e). The expres-                  D). To explore whether PIK3R3 expression levels could
+sion levels of miR-193a-5p in 40 pairs of CRC tumor tis-                  also be regulated by circRNA_0000392, we detected
+sues and adjacent normal tissues were measured by                         PIK3R3 expression after transfection with circRNA_
+qRT-PCR. The results showed that the miR-193a-5p ex-                      0000392 siRNA. We found that knockdown of circRNA_
+pression level in CRC tumor tissues was significantly re-                 0000392 significantly decreased the expression of
+duced compared with that in adjacent normal tissues                       PIK3R3 (Fig. 6g). Based on IHC staining of PIK3R3 in 40
+(Fig. 5f and Additional file 1: Fig. S6). Spearman correl-                CRC tissues, we found that PIK3R3 was positively corre-
+ation coefficient analysis revealed a negative correlation                lated with circRNA_0000392 expression in CRC tissues
+between miR-193a-5p and circRNA_0000392 expression                        (r = 0.385, P = 0.014) (Fig. 6h and i). Collectively, these
+in CRC tumor tissues (r = − 0.365, P = 0.021) (Fig. 5g).                  results demonstrated that PIK3R3 was a target gene of
+Overall, these results demonstrate that circRNA_                          miR-193a-5p and could be regulated by circRNA_
+0000392 acts as a sponge for miR-195-5p in CRC.                           0000392.
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283   Page 11 of 17
+
+
+
+
+ Fig. 5 (See legend on next page.)
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283                                                       Page 12 of 17
+
+
+
+
+ (See figure on previous page.)
+ Fig. 5 CircRNA_0000392 functions as a sponge for miR-193a-5p. a RIP analysis of circRNA_0000392 using anti-AGO2 antibody in SW620 and RKO
+ cells. b The circRNA-miRNA-mRNA interaction based on circRNA_0000392 was demonstrated by prediction and bioinformatics analysis using
+ Cytoscape software. c The top five miRNAs that may be regulated by circRNA_0000392 based on the miRNA prediction and bioinformatics
+ analyses are shown and measured by qRT-PCR after the pull-down assay in RKO cells. d Schematic illustration demonstrating the luciferase
+ reporter vectors containing wild-type (WT) or mutant (MUT) predicted miR-193a-5p binding sites of circRNA_0000392. e The luciferase assay was
+ performed in 293 T cells after cotransfection with miR-193a-5p mimic and the luciferase vector containing wild-type (WT) or mutant (MUT)
+ circRNA_0000392. f Relative expression of miR-193a-5p in 40 pairs of CRC and ANT tissues measured by qRT-PCR. g The correlation between
+ circRNA_0000392 and miR-193a-5p in CRC tissues was analyzed by Spearman correlation coefficients. Data represent the mean ± SD. * P < 0.05, **
+ P < 0.01, *** P < 0.001
+
+
+
+
+ Fig. 6 PIK3R3 is directly targeted by miR-193a-5p and indirectly regulated by circRNA_0000392. a The relative mRNA expression of EPHA2, PIK3R3,
+ EGFR, USP22 and DDX58 after transfection with the miR-193a-5p inhibitor was detected in SW620 cells by qRT-PCR. b Schematic illustration of
+ PIK3R3 3’UTR wild-type (WT) or 3’UTR mutant (MUT) luciferase reporter vectors and the predicted binding sites to miR-193a-5p. c The relative
+ luciferase activities were detected in 293 T cells after cotransfection with the PIK3R3 3’UTR wild-type (WT) or 3’UTR mutant (MUT) luciferase
+ reporter vectors with the miR-193a-5p mimics. d Relative PIK3R3 mRNA expression after transfection with the miR-193a-5p mimics or inhibitor
+ was detected in cells by qRT-PCR. e The relative PIK3R3 protein level after transfection with the miR-193a-5p mimics was detected in cells by
+ western blot. f Relative expression of PIK3R3 in 40 pairs of CRC and ANT tissues measured by qRT-PCR. g Relative PIK3R3 mRNA expression after
+ transfection with circRNA_0000392 siRNA was detected by qRT-PCR. h Representative IHC staining images of low and high PIK3R3 expression in
+ patient CRC tissue samples. Scale bar = 20 μm. i The correlation between circRNA_0000392 and PIK3R3 protein expression in CRC tissues was
+ analyzed based on Spearman correlation coefficients. Data represent the mean ± SD. * P < 0.05, ** P < 0.01
+Xu et al. Journal of Experimental & Clinical Cancer Research   (2020) 39:283                                             Page 13 of 17
+
+
+
+
+CircRNA_0000392 promotes CRC cell proliferation and                      detection and treatment can achieve a better prognosis,
+invasion through the circRNA_0000392/miR-193a-5p/                        so it is important to search for effective new biomarkers
+PIK3R3 axis                                                              and to explore CRC pathogenesis-related signaling
+To investigate whether circRNA_0000392 plays its role                    pathways.
+in promoting tumor progression through the/miR-193a-                        CircRNAs are noncoding RNAs that form a closed
+5p/PIK3R3 axis, rescue experiments were performed by                     continuous loop by covalent attachment of the 3′ and 5′
+transcription of circRNA_0000392-knockdown cells with                    ends [4, 18]. As early as the 1970s, Sanger et al. [19] dis-
+the miR-193a-5p inhibitor. The results of WST-1 and                      covered the presence of single-stranded circular RNA in
+Transwell assays indicated that the inhibition of prolifer-              plant viruses. However, due to the limitations of detec-
+ation and invasion by circRNA_0000392 knockdown in                       tion, circRNA was considered to be a phenomenon of
+SW620 and RKO cells could be rescued by the miR-                         incorrect splicing during exon transcription [20]; thus,
+193a-5p inhibitor (Fig. 7a-d). The miR-193a-5p inhibitor                 its existence did not receive sufficient attention during
+also rescued the effect of circRNA_0000392 knockdown                     that period. In recent years, with the development of
+on apoptosis (Additional file 1: Fig. S8). Then, we de-                  high-throughput sequencing technology and bioanalysis,
+tected PIK3R3 mRNA expression by qRT-PCR and                             circRNAs have become a research hotspot in the field of
+found that the reduction in PIK3R3 expression due to                     biomedicine [21, 22]. CircRNAs are widely expressed in
+circRNA_0000392 siRNA could be alleviated by the                         human cells and are tissue specific with varying levels of
+miR-193a-5p inhibitor (Fig. 7e). In addition, the western                expression in different types of tissues [23]. Due to their
+blot assay revealed that knockdown of circRNA_0000392                    unique characteristics, circRNAs have become promising
+decreased the PIK3R3 protein levels and AKT and mTOR                     diagnostic markers and therapeutic targets for cancer.
+phosphorylation levels, and the effects could be reversed                To date, many studies have identified circRNAs as diag-
+by the miR-193a-5p inhibitor (Fig. 7f-i). Collectively, these            nostic and prognostic biomarkers in distinct human can-
+results demonstrated that circRNA_0000392 could act as                   cers [24–26] and have reported the role of circRNAs in
+a regulator of miR-193a-5p to further affect the expression              the progression of cancers [27–30].
+of PIK3R3 and play a regulatory role in CRC.                                In our study, we performed high-throughput circRNA
+                                                                         sequencing in cancer tissues and adjacent normal tissues
+Downregulation of circRNA_0000392 suppresses the                         of 6 colorectal cancer patients and obtained the expres-
+growth of CRC cells in vivo                                              sion profile of 66,855 circRNAs in colorectal cancer.
+To explore the effects of circRNA_0000392 in vivo, cir-                  Then, the circRNAs differentially expressed between
+cRNA_0000392-knockdown SW620 cells and negative                          colorectal cancer tissues and normal tissues were identi-
+control cells were subcutaneously injected into the backs                fied by bioinformatics analysis. These circRNAs may be-
+of BALB/c nude mice. After 30 days of observation, the                   come potential biomarkers and therapeutic targets for
+results showed that circRNA_0000392 knockdown re-                        the diagnosis of colorectal cancer. Based on our data, we
+duced the volume and weight of SW620-derived tumors                      selected some circRNAs exhibiting significant differences
+in vivo (Fig. 8a-c). Then, the expression levels of Ki-67                in expression and validated them in additional samples.
+and PIK3R3 in the two groups of tumor tissues were                       We found that circRNA_0000392 was significantly up-
+evaluated by immunohistochemical staining. The results                   regulated in colorectal cancer tissues and cell lines. The
+demonstrated that Ki-67 and PIK3R3 expression levels                     expression level of circRNA_0000392 in colorectal can-
+decreased in the tumor tissues in which the expression                   cer was markedly associated with clinical stage and ma-
+of circRNA_0000392 was knocked down (Fig. 8d - e).                       lignant progression. ROC curve analysis showed the
+Therefore, inhibiting the expression of circRNA_                         diagnostic value of circRNA_0000392 in CRC, revealing
+0000392 significantly inhibited the growth of CRC                        that it may be a promising prognostic biomarker. Next,
+in vivo (Fig. 8f).                                                       a series of functional experiments demonstrated that
+                                                                         knockdown of circRNA_0000392 significantly inhibited
+Discussion                                                               the proliferation and invasion of CRC cells, revealing its
+Colorectal cancer is one of the most common malignant                    function as an oncogene. In particular, in the results
+tumors, and its incidence has increased yearly. In terms                 verified by clinical samples, the expression level of cir-
+of treatment, early CRC can be treated by endoscopic                     cRNA_0000392 was significantly increased in the CRC
+minimally invasive surgery and surgical eradication.                     lymph node and distal metastasis group. Combined with
+However, given that most CRC cases have no obvious                       its effect on the invasion of CRC cells in vitro, it can be
+clinical symptoms in the early stage, approximately 60%                  speculated that circRNA_0000392 plays a key role in the
+of CRC patients have progressed into the middle and                      malignant progression of CRC.
+late stages at the time of diagnosis with lymph node and                    In the research on circRNAs to date, the miRNA
+distant metastases [3]. For colorectal cancer, early                     sponge mechanism has been one of the foundations for
+Xu et al. Journal of Experimental & Clinical Cancer Research    (2020) 39:283                                                        Page 14 of 17
+
+
+
+
+ Fig. 7 CircRNA_0000392 promotes cell proliferation and invasion through the circRNA_0000392/miR-193a-5p/PIK3R3 axis. a - b SW620 and RKO
+ cell proliferation after transfection with circRNA_0000392 siRNA and/or miR-193a-5p inhibitor was measured by WST-1. c - d The cell migration (c)
+ and invasion (d) capabilities were determined by Transwell assay after transfection of SW620 and RKO cells with the circRNA_0000392 siRNA and/
+ or miR-193a-5p inhibitor. e The relative mRNA expression of PIK3R3 after transfection with circRNA_0000392 siRNA and/or miR-193a-5p inhibitor
+ was detected by qRT-PCR. f - i The relative protein expression of PIK3R3 and the phosphorylation level of downstream pathway proteins were
+ measured by western blot in cells transfected with the circRNA_0000392 siRNA and/or miR-193a-5p inhibitor. Data represent the mean ± SD. *
+ P < 0.05, ** P < 0.01
+
+
+exploring the biological functions of circRNAs. Since                      and constructed relevant networks. We further con-
+Hansen [10] discovered that circRNA could function as                      firmed that circRNA_0000392 could directly interact
+a miRNA sponge and demonstrated that ciRS-7 acted as                       with miR-193a-5p, one of the predicted targets, by using
+a miRNA sponge, numerous circRNAs with miRNA                               RNA pull-down and dual luciferase reporter assays. The
+sponge function have been revealed in human cancers                        results of rescue experiments showed that the effect of
+[15, 31, 32]. The RIP assay was used to confirm that cir-                  decreased CRC cell proliferation and invasion caused by
+cRNA_0000392 has can adsorb miRNA. Based on                                circRNA_0000392 knockdown was offset by inhibition
+circRNA_0000392, we first predicted circRNA-miRNA-                         of miR-193a-5p. It has been reported that miR-193a-5p
+mRNA interactions through target prediction software                       mainly contributes as a tumor suppressor in a variety of
+Xu et al. Journal of Experimental & Clinical Cancer Research     (2020) 39:283                                                         Page 15 of 17
+
+
+
+
+ Fig. 8 Downregulation of circRNA_0000392 suppresses the growth of CRC cells in vivo. a Image of subcutaneous xenograft tumors. Nude mice
+ were injected with 5 × 106 SW620 cells (n = 5 for each group). Tumors were extracted after 30 days. b Analysis of tumor volume of mice
+ measured every 3 days. c Tumor weight in each group at the end of the experiment. d Histological analysis of tumor tissues by hematoxylin and
+ eosin staining. IHC of Ki-67 and PIK3R3 in subcutaneous tumors. Scale bar, 100 μm. e The graph shows the relative signal intensity scores of KI-67
+ and PIK3R3. f Schematic illustration of circRNA_0000392 regulating the miR-193a-5p/PIK3R3 axis in CRC. Data represent the mean ± SD. * P < 0.05,
+ ** P < 0.01, *** P < 0.001. Additional file 1
+
+
+
+cancers [33–35], and the interaction of circRNA_                            determined that miR-193a-5p could specifically bind to
+0000392 with miR-193a-5p attenuates the tumor sup-                          the 3′ UTR of PIK3R3 and regulate its expression level.
+pressor efficiency of miR-193a-5p. Our results demon-                         PI3K signaling is widely activated in human cancers,
+strated that circRNA_0000392 acts as an oncogene by                         and its role in tumor development and metastasis has
+sponging miR-193a-5p in CRC.                                                been well investigated. PIK3R3 is one of the mammalian
+   As noncoding RNAs, miRNAs exert biological effects                       genes from Class IA PI3Ks and encodes the p85a, p85b
+by modulating their target genes. The circRNAs with                         and p55g regulatory subunits [36]. The PIK3R3 regula-
+miRNA sponge function can adsorb miRNAs and indir-                          tory subunit is important for cell proliferation and
+ectly release the inhibitory effects of miRNAs on their                     tumorigenesis [37]. Additionally, PIK3R3 is overex-
+targeted genes. After we determined that miR-193a-5p                        pressed in some cancers and has been reported to act as
+could be adsorbed by circRNA_0000392, our next focus                        an oncogene. Our data showed that PIK3R3 mRNA and
+was to search for its effector target genes. Similarly, from                protein expression levels in CRC tissues were elevated
+the prediction analysis, we selected several of the most                    compared with those in adjacent normal tissues and had
+likely potential target genes and experimentally                            a significant positive correlation with the expression
+Xu et al. Journal of Experimental & Clinical Cancer Research          (2020) 39:283                                                             Page 16 of 17
+
+
+
+
+level of circRNA_0000392. Studies have shown that                                by qRT-PCR. Figure S7. (A) The relative mRNA expression of EPHA2,
+PIK3R3 expression levels in CRC and ovarian cancer tis-                          PIK3R3, EGFR, USP22 and DDX58 after transfected with the miR-193a-5p
+sues exhibit the same trend, which is consistent with our                        mimics was detected in SW620 cells by qRT-PCR. (B-C) Relative mRNA ex-
+                                                                                 pression of PIK3R3 in 40 pairs of CRC and ANT tissues measured by qRT-
+results [38, 39]. Our in vitro results showed that knock-                        PCR. (D) The correlation between miR-193a-5p and PIK3R3 in CRC tissues
+ing down the expression of circRNA_0000392 inhibited                             was analyzed by Spearman correlation coefficients. Figure S8. Apoptosis
+CRC cell proliferation and invasion, whereas the expres-                         rate was analyzed by flow cytometry after transfection the indicated plas-
+                                                                                 mids in SW620 and RKO cells. Figure S9. The relative protein expression
+sion level of PIK3R3 and phosphorylation levels of                               of E-Cadherin and Vimentin were measured by western blot in cells trans-
+AKT1 and mTOR were also inhibited. Subsequently, res-                            fected with the circRNA_0000392 siRNA or negative control. Table S1.
+cue experiments also showed that the miR-193a-5p in-                             Primers and RNA sequences used in this study. Table S2. The top 10 up-
+                                                                                 regulated circRNAs and top 10 downregulated circRNAs from the
+hibitor restored the inhibitory effect of knocking down                          circRNA-seq.
+circRNA_0000392 on cell proliferation and restored the                           Additional file 2. Supplementary Materials and Methods.
+inhibition of this pathway by downregulation of cir-                             Additional file 3. CircRNA Expression Profiling in this study (please see
+cRNA_0000392. Abnormal activation of AKT-mTOR                                    the attached excel spreadsheet).
+signaling pathway plays an important role in the malig-                          Additional file 4. Differentially Expressed circRNAs between the two
+nant progression of CRC [40–42]. Consistently, our re-                           groups (please see the attached excel spreadsheet).
+sults showed that downregulation of circRNA_0000392
+significantly inhibit the phosphorylation level of AKT                          Abbreviations
+                                                                                CRC: Colorectal cancer; circRNA: Circular RNAs; qRT-PCR: Real-time
+(Ser473). CircRNA_0000392 serves as a regulator of                              quantitative polymerase chain reaction; IHC: Immunohistochemistry; RIP: RNA
+AKT/mTOR signaling in CRC cells. Thus, the circRNA_                             immunoprecipitation; ncRNA: Noncoding RNAs; PIK3R3: Phosphoinositide-3-
+0000392/miR-193a-5p/PIK3R3/AKT axis plays an im-                                Kinase Regulatory Subunit 3; ROC: Receiver operating characteristic;
+                                                                                AUC: Area under the curve; EPHA2: EPH Receptor A2; EGFR: Epidermal
+portant role in CRC.                                                            Growth Factor Receptor; USP22: Ubiquitin Specific Peptidase 22;
+                                                                                DDX58: DExD/H-Box Helicase 58
+Conclusion
+                                                                                Acknowledgments
+In conclusion, we revealed that circRNA_0000392 was                             We thank Cloud-Seq Biotech Ltd. Co. (Shanghai, China) for the CircRNA-Seq
+upregulated in human CRC tissues and is a promising                             service.
+biomarker for CRC. Furthermore, we first demonstrated
+                                                                                Authors’ contributions
+the effect of the circRNA_0000392/miR-193a-5p/PIK3R3
+                                                                                HCX, YXX, and GJ discussed and designed this study; HCX, YJL, PQC and
+axis on the activation of the AKT-mTOR pathway,                                 CYW performed the experiments; YL and YXX were responsible for collecting
+representing a novel mechanism for CRC progression.                             tissue specimens; HCX and WJZ conducted the data analyses; HCX drafted
+                                                                                the manuscript. There are two corresponding authors in this manuscript. YXX
+This study suggests that circRNA_0000392 is a potential
+                                                                                contributed to leading the surgery and collecting tissue specimens. GJ
+therapeutic target for the treatment of colorectal cancer                       contributed to the study design, data interpretation, and editing of the
+and a predictive marker for CRC patients.                                       manuscript. All authors read and approved the final manuscript.
+
+                                                                                Funding
+Supplementary Information                                                       This work was supported by the National Nature Science Foundation of
+The online version contains supplementary material available at https://doi.    China (No. 81874206), Shanghai Rising-Star Program (20QA1409300), and Pro-
+org/10.1186/s13046-020-01799-1.                                                 gram for Young Eastern Scholar at Shanghai Institutions of Higher Learning.
+
+ Additional file 1: Figure S1. GO analyses of the host genes of                 Availability of data and materials
+ differentially expressed circRNAs. (A-B) GO annotations of the host genes      The datasets used during the current study are available from the
+ of significantly upregulated expressed circRNAs. (C-D) GO annotations of       corresponding authors upon reasonable request.
+ the host genes of significantly downregulated expressed circRNAs.
+ Figure S2. KEGG analyses of the host genes of differentially expressed         Ethics approval and consent to participate
+ circRNAs. (A-B) KEGG analyses of the host genes of significantly               The human cancer tissues used in this study were approved by the institute
+ upregulated expressed circRNAs. (C-D) KEGG analyses of the host genes          ethical committee of Longhua Hospital affiliated with Shanghai University of
+ of significantly downregulated expressed circRNAs. Figure S3. CircRNA-         Traditional Chinese Medicine.
+ miRNA network maps were constructed using Cytoscape software based
+ on significant differential expression of circRNAs to demonstrate their        Consent for publication
+ interaction. Figure S4. Analysis of circRNA_0000392 expression in CRC          The consent forms were signed by every participant and will be provided
+ patients with or without lymph node metastasis (A) and CRC patients            upon request.
+ with or without distant metastasis (B). (C) qRT-PCR analysis of cir-
+ cRNA_0000392 and YAF2 mRNA in RKO cells treated with actinomycin D             Competing interests
+ at the indicated time points. Figure S5. (A) The top five miRNAs may           The authors declare that there was no conflict of interest.
+ regulated by circRNA_0000392 base on the miRNA prediction and bio-
+ informatics analyses were showed and measured by qRT-PCR after the             Received: 16 August 2020 Accepted: 3 December 2020
+ pull – down assay in SW620 cells. (B) Relative expression of miR-193a-5p
+ after transfected with the mimics or inhibitor was measured by qRT-PCR.
+ (C) Relative expression of circRNA_0000392 after transfected with the
+                                                                                References
+ mimics or inhibitor was measured by qRT-PCR. Figure S6. (A-B) Relative
+ expression of miR-193a-5p in 40 pairs of CRC and ANT tissues measured          1. Siegel RL, Miller KD, Fedewa SA, Ahnen DJ, Meester RGS, Barzi A, et al.
+                                                                                    Colorectal cancer statistics, 2017. CA Cancer J Clin. 2017;67:177–93.
+Xu et al. Journal of Experimental & Clinical Cancer Research                  (2020) 39:283                                                                Page 17 of 17
+
+
+
+
+2.    Siegel R, Fedewa SA, Anderson WF, Miller KD, Ma J, Rosenberg PS, et al.             27. Wang R, Zhang S, Chen X, Li N, Li J, Jia R, et al. CircNT5E acts as a sponge
+      Colorectal cancer incidence patterns in the United States, 1974–2013. J Natl            of miR-422a to promote glioblastoma tumorigenesis. Cancer Res. 2018;78:
+      Cancer Inst. 2017;109(8):322.                                                           4812–25.
+3.    Miller KD, Nogueira L, Mariotto AB, Rowland JH, Yabroff KR, Alfano CM, et al.       28. Yu J, Xu QG, Wang ZG, Yang Y, Zhang L, Ma JZ, et al. Circular RNA
+      Cancer treatment and survivorship statistics, 2019. CA Cancer J Clin. 2019;69:          cSMARCA5 inhibits growth and metastasis in hepatocellular carcinoma. J
+      363–85.                                                                                 Hepatol. 2018;68:1214–27.
+4.    Memczak S, Jens M, Elefsinioti A, Torti F, Krueger J, Rybak A, et al. Circular      29. Liu H, Bi J, Dong W, Yang M, Shi J, Jiang N, et al. Invasion-related circular
+      RNAs are a large class of animal RNAs with regulatory potency. Nature.                  RNA circFNDC3B inhibits bladder cancer progression through the miR-1178-
+      2013;495:333–8.                                                                         3p/G3BP2/SRC/FAK axis. Mol Cancer. 2018;17:161.
+5.    Arnberg AC, Van Ommen GJ, Grivell LA, Van Bruggen EF, Borst P. Some                 30. Zhang J, Liu H, Hou L, Wang G, Zhang R, Huang Y, et al. Circular RNA_
+      yeast mitochondrial RNAs are circular. Cell. 1980;19(2):313–9.                          LARP4 inhibits cell proliferation and invasion of gastric cancer by sponging
+6.    Fan X, Zhang X, Wu X, Guo H, Hu Y, Tang F, et al. Single-cell RNA-seq                   miR-424-5p and regulating LATS1 expression. Mol Cancer. 2017;16:151.
+      transcriptome analysis of linear and circular RNAs in mouse preimplantation         31. Chen X, Chen RX, Wei WS, Li YH, Feng ZH, Tan L, et al. PRMT5 circular RNA
+      embryos. Genome Biol. 2015;16:148.                                                      promotes metastasis of Urothelial carcinoma of the bladder through
+7.    Salzman J, Gawad C, Wang PL, Lacayo N, Brown PO. Circular RNAs are the                  sponging miR-30c to induce epithelial–Mesenchymal transition. Clin Cancer
+      predominant transcript isoform from hundreds of human genes in diverse                  Res. 2018;24(24):6319–30.
+      cell types. PLoS One. 2012;7(2):e30733.                                             32. Wu Y, Xie Z, Chen J, Chen J, Ni W, Ma Y, et al. Circular RNA circTADA2A
+8.    Lukiw W. Circular RNA (circRNA) in Alzheimer’s disease (AD). Front Genet.               promotes osteosarcoma progression and metastasis by sponging miR-203a-
+      2013;4(4):307–8.                                                                        3p and regulating CREB3 expression. Mol Cancer. 2019;18:73.
+9.    Bachmayr-Heyda A, Reiner AT, Auer K, Sukhbaatar N, Aust S, Bachleitner-             33. Tsai KW, Leung CM, Lo YH, Chen TW, Chan WC, Yu SY, et al. Arm selection
+      Hofmann T, et al. Correlation of circular RNA abundance with proliferation-             preference of MicroRNA-193a varies in breast cancer. Sci Rep. 2016;6:28176.
+      exemplified with colorectal and ovarian cancer, idiopathic lung fibrosis, and       34. Zhou J, Duan H, Xie Y, Ning Y, Zhang X, Hui N, et al. MiR-193a-5p targets
+      normal human tissues. Sci Rep. 2015;5(8057):8057–8.                                     the coding region of AP-2a mRNA and induces Cisplatin resistance in
+10.   Hansen TB, Jensen TI, Clausen BH, Bramsen JB, Finsen B, Damgaard CK, et al.             bladder cancers. J Cancer. 2016;7(12):1740–6.
+      Natural RNA circles function as efficient microRNA sponges. Nature. 2013;           35. Pu Y, Zhao F, Cai W, Meng X, Li Y, Cai S. MiR-193a-3p and miR-193a-5p
+      495:384–8.                                                                              suppress the metastasis of human osteosarcoma cells by down-regulating
+11.   Hansen TB, Kjems J, Damgaard CK. Cirular RNA and miR-7 in cancer. Cancer                Rab27B and SRR, respectively. Clin Exp Metastasis. 2016;33:359–72.
+      Res. 2013;73(18):5609–12.                                                           36. Backer JM. The regulation of class IA PI 3-kinases by inter-subunit
+12.   Zheng Q, Bao C, Guo W, Li S, Chen J, Chen B, et al. Circular RNA profiling              interactions. Curr Top Microbiol Immunol. 2011;346:87–114.
+      reveals an abundant circHIPK3 that regulates cell growth by sponging                37. Hu J, Xia X, Cheng A, Wang G, Luo X, Reed MF, et al. Apeptide inhibitor
+      multiple miRNAs. Nat Commun. 2016;7:11215.                                              derived from p55PIK phosphatidylinositol 3-kinase regulatory subunit: a
+13.   Li XN, Wang ZJ, Ye CX, Zhao BC, Li ZL, Yang Y. RNA sequencing reveals the               novel cancer therapy. Mol Cancer Ther. 2008;7:3719–28.
+      expression profiles of circRNA and indicates that circDDX17 acts as a tumor         38. Wang G, Yang X, Li C, Cao X, Luo X, Hu J. PIK3R3 induces epithelial-to-
+      suppressor in colorectal cancer. J Exp Clin Cancer Res. 2018;37:325.                    Mesenchymal transition and promotes metastasis in colorectal cancer. Mol
+14.   Yang R, Xing L, Zheng X, Sun Y, Wang X. Chen. The circRNA circAGFG1 acts                Cancer Ther. 2014;13(7):1837–47.
+      as a sponge of miR-195-5p to promote triple-negative breast cancer                  39. Zhang L, Huang J, Yang N, Greshock J, Liang S, Hasegawa K, et al.
+      progression through regulating CCNE1 expression. Mol Cancer. 2019;18:4.                 Integrative genomic analysis of phosphatidylinositol 30-kinase family
+15.   Han D, Li J, Wang H, Su X, Hou J, Gu Y, et al. Circular RNA circMTO1 acts as            identifies PIK3R3 as a potential therapeutic target in epithelial ovarian
+      the sponge of microRNA-9 to suppress hepatocellular carcinoma                           cancer. Clin Cancer Res. 2007;13:5314–21.
+      progression. Hepatology. 2017;66:1151–64.                                           40. Duan S, Huang W, Liu X, Liu X, Chen N, Xu Q, et al. IMPDH2 promotes
+16.   Chen X, Mao R, Su W, Yang X, Geng Q, Guo C, et al. Circular RNA circHIPK3               colorectal cancer progression through activation of the PI3K/AKT/mTOR and
+      modulates autophagy via MIR124-3p-STAT3-PRKAA/AMPKa signaling in                        PI3K/AKT/FOXO1 signaling pathways. J Exp Clin Cancer Res. 2018;37:304.
+      STK11 mutant lung cancer. Autophagy. 2020;16(4):659–71.                             41. Bahrami A, Khazaei M, Hasanzadeh M, ShahidSales S, Mashhad MJ,
+17.   Jie M, Wu Y, Gao M, Li X, Liu C, Ouyang C, et al. CircMRPS35 suppresses                 Farazestanian M, et al. Therapeutic potential of targeting PI3K/AKT pathway
+      gastric cancer progression via recruiting KAT7 to govern histone                        in treatment of colorectal cancer: rational and Progress. J Cell Biochem.
+      modification. Mol Cancer. 2020;19:56.                                                   2018;119:2460–9.
+                                                                                          42. Xu W, Yu M, Qin J, Luo Y, Zhong M. LACTB regulates PIK3R3 to promote
+18.   Geng Y, Jiang J, Wu C. Function and clinical significance of circRNAs in solid
+                                                                                              autophagy and inhibit EMT and proliferation through the PI3K/AKT/mTOR
+      tumors. J Hematol Oncol. 2018;11:98.
+                                                                                              signaling pathway in colorectal cancer. Cancer Manag Res. 2020;12:5181–200.
+19.   Sanger HL, Klotz G, Riesner D, Gross HJ, Kleinschmidt AK, et al. Viroids are
+      single-stranded covalently closed circular RNA molecules existing as highly
+      base-paired rod-like structures. Proc Natl Acad Sci U S A. 1976;73(11):3852–6.      Publisher’s Note
+20.   Cocquerelle C, Mascrez B, Hetuin D, Bailleul B. Mis-splicing yields circular        Springer Nature remains neutral with regard to jurisdictional claims in
+      RNA molecules. FASEB J. 1993;7(1):155–60.                                           published maps and institutional affiliations.
+21.   Conn SJ, Pillman KA, Toubia J, Conn VM, Salmanidis M, Phillips CA, et al. The
+      RNA binding protein quaking regulates formation of circRNAs. Cell. 2015;
+      160(6):1125–34.
+22.   Rybak-Wolf A, Stottmeister C, Glazar P, Jens M, Pino N, Giusti S, et al. Circular
+      RNAs in the mammalian brain are highly abundant, conserved, and
+      dynamically expressed. Mol Cell. 2015;58:870–85.
+23.   Jeck WR, Sorrentino JA, Wang K, Slevin MK, Burd CE, Liu J, et al. Circular
+      RNAs are abundant, conserved, andassociated with ALU repeats. RNA. 2013;
+      19:141–57.
+24.   Pan Z, Cai J, Lin J, Zhou H, Peng J, Liang J, et al. A novel protein encoded
+      by circFNDC3B inhibits tumor progression and EMT through regulating snail
+      in colon cancer. Mol Cancer. 2020;19:71.
+25.   Zhang S, Zeng X, Ding T, Guo L, Li Y, Ou S, et al. Microarray profile of
+      circular RNAs identifies hsa_circ_0014130 as a new circular RNA biomarker
+      in non-small cell lung cancer. Sci Rep. 2018;8(1):2878.
+26.   Chen J, Li Y, Zheng Q, Bao C, He J, Chen B, et al. Circular RNA profile
+      identifies circPVT1 as a proliferative factor and prognostic marker in gastric
+      cancer. Cancer Lett. 2017;388:208–19.
+
